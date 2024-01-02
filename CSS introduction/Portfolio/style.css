@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: block;
+    background-color: #efeff0;
+    margin: 0 auto;
+    color: #00d3d4;
+    width: 1000px;
+}
+
+nav ul {
+    margin: 0 auto;
+    display: block;
+    margin-left: 110px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-left: solid white 3px;
+}
+
+nav ul li:nth-child(4) {
+    border-right: solid white 3px;
+    padding-right: 30px;
+}
+
+nav ul li i {
+    display: block;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #00d3d4;
+    margin-left: 25px;
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    display: block;
+    width: 1000px;
+    font-family: Helvetica, sans-serif;
+}
+
+main section:nth-child(1) {
+    background-color: #555c6f;
+    color: #b2b6c0;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    overflow: hidden;
+}
+
+main section:nth-child(1) h2 {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 85px;
+    margin-top: 20px;
+}
+
+main section:nth-child(1) p {
+    display: block;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+main section:nth-child(1) p:nth-child(7) {
+    display: block;
+    margin-top: 80px;
+}
+
+main section:nth-child(1) p:nth-child(6) {
+    display: block;
+    margin-top: 30px;
+}
+
+main section:nth-child(1) p i {
+    display: inline-block;
+    margin: 5px;
+}
+
+main section:nth-child(2) {
+    background-color: #00d3d4;
+    color: white;
+    display: inline-block;
+    text-align: left;
+    width: 595px;
+    height: 400px;
+    overflow: hidden;
+}
+
+main section:nth-child(2) article {
+    display: inline-block;
+}
+
+main section:nth-child(2) article:nth-child(2) img {
+    width: 200px;
+    border: solid white 10px;
+    margin-left: 100px;
+    margin-bottom: 135px;
+}
+
+main section:nth-child(2) article:nth-child(1) h2 {
+    display: block;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+main section:nth-child(2) article:nth-child(1) p {
+    display: block;
+    width: 200px;
+    margin-left: 20px;
+}
